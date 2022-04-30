@@ -14,10 +14,7 @@ import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.auto.brochure.*
 import com.auto.brochure.databinding.FragmentMainBinding
-import com.auto.brochure.repository.CarInfoRepository
 import dagger.hilt.android.AndroidEntryPoint
-import kotlinx.coroutines.launch
-import javax.inject.Inject
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity(R.layout.activity_main) {
@@ -72,6 +69,5 @@ class MainFragment : Fragment() {
                 )
             }
         }
-
     }
 }
